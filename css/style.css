@@ -5,10 +5,22 @@ html, body{
   width: 100%;
   font-family: 'Poppins', sans-serif;
   color: #222;
+  /*background-color: #ffdee6; */
+  background-color: #ffe6ed;
+}
+
+body{
+  padding-top: 80px;
 }
 
 .navbar {
-  padding: 3rem;
+  padding: 0.8rem;
+  /*background-color: #cfcfcf !important;*/
+  box-shadow: 0 5px 5px -6px #999;
+}
+
+.navbar-brand{
+  font-size: 1.5em;
 }
 
 .navbar-nav li {
@@ -29,7 +41,9 @@ html, body{
   border-radius: 25px;
 }
 
-
+.more-details{
+  vertical-align: bottom;
+}
 
 
 /*---Media Queries --*/

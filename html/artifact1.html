@@ -14,9 +14,9 @@
 <body>
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
   <div class="container">
-    <a class="navbar-brand" href="#">Bonnie Williams</a>
+    <a class="navbar-brand" href="#"><img src="../img/icons/pink-flower-icon.png" height="35px">    Bonnie Williams</a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -25,32 +25,59 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="index.html">Introduction</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="samples.html">Work Samples</a>
+          <a class="nav-link" href="../index.html">Introduction</a>
         </li>
         <li class="nav-item active">
+          <a class="nav-link" href="samples.html">Work Samples</a>
+        </li>
+        <li class="nav-item">
           <a class="nav-link" href="resume.html">Resume</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/bwill001"><img src="../img/icons/github-icon.png" height="25px"></a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
 
-<!--- Welcome Section -->
-<div id="home-intro">
+<!--- Project Section -->
+<div id="artifact1-intro">
     <div class="container mt-4 pt-4 bg-light">
       
       <div class="box">
+        <div class="row">
+          <div class="col-md-6">
+           <a href="samples.html"><img src="../img/icons/back-icon.png" height="25px">Back to Projects</a>
+         </div>
+        </div>
 
         <div class="row">
           <div class="col-md-6">
+            This section will include an image of the dashboard.
             <img src="../img/welcome-img.png" class="img-fluid">
           </div>
           <div class = "col-md-6">
-            <h2>Artifact 1</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h2>Artifact 1: Visualizing Georgia COVID-19 Data</h2>
+            <p>The purpose of this project is to visualize data from the Georgia Department of Health regarding COVID-19 and to discover additional insights that are not explicitly recorded. <br><br>
+            
+            For me, this was also an opportunity to familiarize myself with more Python tools and frameworks, including Beautiful Soup, Selenium, and Plotly. I learned more about how to parse data from pure HTML, and ways to interactively visualize data. <br><br>
+
+            Next time, I would . . .<br><br>
+
+            Please scroll down for source code, or view the project <a href="http://google.com">here.</a></p>
+          </div>
+        </div>
+
+        <br>
+
+        <div class="row">
+          <div class="col-md-9">
+            <script src="https://gist.github.com/bwill001/48f374af203dc3055e3a68144daeb490.js"></script>
+          </div>
+          <div class = "col-md-3">
+            <h2>Gathering of Data</h2>
+            <p>This shows how data was retrieved from the Georgia Department of Health webpage with Selenium, and how I subsequently altered and saved the tables for easier use.</p>
           </div>
         </div>
 
@@ -63,6 +90,15 @@
   <br class="clearfix" />
 </div>
 
+<!--- Footer -->
+<footer class="page-footer font-small teal pt-4 bg-dark">
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-1">2020 Bonnie Williams
+  </div>
+  <div class="footer-copyright text-center py-1">Icons by
+    <a href="https://icons8.com/">Icons8</a>
+  </div>
+</footer>
 
 </body>
 </html>
