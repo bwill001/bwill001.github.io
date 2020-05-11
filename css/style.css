@@ -27,12 +27,6 @@ body{
   padding-right: 20px;
 }
 
-/*
-.navbar-brand {
-  padding-left: 20px;
-}
-*/
-
 .nav-link{
   font-size: 1.1em;
 }
@@ -44,7 +38,6 @@ body{
 .more-details{
   vertical-align: bottom;
 }
-
 
 /*---Media Queries --*/
 @media (max-width: 992px) {
